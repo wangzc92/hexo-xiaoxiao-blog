@@ -1,0 +1,5 @@
+options:
+  spellcheck: false
+editor:
+  inputStyle: contenteditable
+  spellcheck: false
