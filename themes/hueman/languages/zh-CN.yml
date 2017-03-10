@@ -23,6 +23,7 @@ sidebar:
     tag_cloud: '标签云'
 article:
     comments: '评论'
+    views: "阅读量"
     share: '分享到'
 insight:
     hint: '想要查找什么...'

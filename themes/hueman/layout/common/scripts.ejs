@@ -3,3 +3,13 @@
 
 <!-- Custom Scripts -->
 <%- js('js/main') %>
+<%- js('js/canvas-nest') %>
+
+<% if(theme.leancloud.enable === true) { %>
+    <!-- Leancloud -->
+    <script src="<%= theme.leancloud.av_core_mini %>"></script>
+    <script>
+        AV.initialize('<%= theme.leancloud.app_id %>', '<%= theme.leancloud.app_key %>');
+    </script>
+    <%- partial('widget/leancloud-views') %>
+<% } %>

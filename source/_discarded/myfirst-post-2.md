@@ -3,7 +3,8 @@ author: wangzc
 tags:
   - css
 categories:
-  - css
+  - 前端基础
+  - Css
 date: 2017-03-09 15:24:00
 ---
 # my first
