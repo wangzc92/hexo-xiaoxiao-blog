@@ -9,6 +9,8 @@ categories:
   - ''
 date: 2017-03-08 13:22:00
 ---
+![page-img](http://ofi3qxlvd.bkt.clouddn.com/image/gallery/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6201608-%E6%B7%B1%E5%9C%B3.jpg)
+
 >如果你是开发测试人员，一定对console不陌生。如果是初学者，恐怕只知道console.log()啦。对于整个的console家族，你又了解多少呢？我们使用console对js进行调试，但js原生中默认是没有console对象的，它是宿主对象，也就是浏览器提供的内置对象，所以浏览器不同，console对象也会有些许差异。使用console.log(console)打印出浏览器中的console对象，看看你用过哪些？
 
 下面是chrome浏览器截图：

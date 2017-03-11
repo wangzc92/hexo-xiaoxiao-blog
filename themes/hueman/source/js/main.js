@@ -100,6 +100,17 @@
         autoHideMenus();
     });
 
+    function changeTitle(){
+        var t = document.title;
+        window.onblur = function() {
+            document.title = "I miss you (>__<)"
+        },
+        window.onfocus = function() {
+            document.title = t
+        }
+    }
+    changeTitle();
+
     // Fold second-level menu
     $('.main-nav-list-item').hover(function () {
         if ($(window).width() < 480) {
