@@ -108,7 +108,7 @@
 
 .article-title
     text-decoration: none
-    font-size: 38px
+    font-size: 36px
     letter-spacing: -1px
     color: color-default
     line-height: line-height-title
@@ -121,8 +121,14 @@
 .article-tag-list
     @extend $block-caption
 
+.article-date
+    margin-right: 10px
+
+.article-author
+    color: color-default
+    margin-right: 10px
+
 .leancloud-views_num
-    margin-left: 20px
     color: color-default
 
 .article-tag-list
@@ -152,7 +158,7 @@
     font-weight: 300
     line-height: line-height
     p, table
-        margin: line-height 0
+        margin: 1em 0
     h1, h2, h3, h4, h5, h6
         font-weight: 600
     h1, h2, h3, h4, h5, h6
@@ -415,6 +421,9 @@ $article-share-link
             display: block
             max-width: 100%
             margin: 0 auto
+
+.ds-powered-by
+    display:none !important
 
 /* lightgallery */
 .lg-outer

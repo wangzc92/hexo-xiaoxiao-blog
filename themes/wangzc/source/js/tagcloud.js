@@ -137,7 +137,7 @@ function doPosition() {
         }
         aAs.left = mcList[i].cx + l - mcList[i].offsetWidth / 2 + 'px';
         aAs.top = mcList[i].cy + t - mcList[i].offsetHeight / 2 + 'px';
-        //aAs.fontSize=Math.ceil(12*mcList[i].scale/2)+8+'px';
+        aAs.fontSize=Math.ceil(12*mcList[i].scale/2)+6+'px';
         //aAs.filter="progid:DXImageTransform.Microsoft.Alpha(opacity="+100*mcList[i].alpha+")";
         aAs.filter = "alpha(opacity=" + 100 * mcList[i].alpha + ")";
         aAs.zIndex = mcList[i].zIndex;

@@ -7,6 +7,7 @@
         <% } %>
         <% if (post.layout != 'page') { %>
             <div class="article-subtitle">
+                <%- partial('post/author') %>
                 <%- partial('post/date', { class_name: 'article-date', date_format: null }) %>
                 <%- partial('post/leancloud-views_num') %>
                 <%- partial('post/tag') %>

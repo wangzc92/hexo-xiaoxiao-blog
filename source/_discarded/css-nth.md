@@ -1,4 +1,4 @@
-title: 前端解读：彻底理解css3结构伪类选择器
+title: 彻底理解css3结构伪类选择器
 author: wangzc
 tags:
   - css3

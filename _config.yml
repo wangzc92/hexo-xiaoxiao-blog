@@ -4,7 +4,7 @@
 
 # Site
 title: 笑笑前端圈
-subtitle: 纯净前端知识分享平台
+subtitle:
 description:
 author: Xiaoxiao
 language: zh-CN
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xiaoxiaoqd.com
+url: http://xiaoxiaoqdq.com
 root: /
 permalink: /blog/:title/
 permalink_defaults:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hueman
+theme: wangzc
 
 admin:
   username: xiaoxiao
